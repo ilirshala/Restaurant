@@ -1,0 +1,393 @@
+body{
+    background-color: rgb(249, 250, 250);
+}
+.navbar {
+    min-height: 80px;
+}
+
+
+.con{
+    background: url('/img/home.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 693px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.con h1{
+    color: #fff;
+    padding-top: 150px;
+}
+.con button{
+    margin-top: 80px;
+    padding: 15px 40px;
+    border-color: #fff;
+    background-color: black; 
+}
+.con2{
+    margin-top: 90px;
+       background: url('/img/we.jpg') no-repeat center center fixed; 
+        background-size: cover;
+    height: 700px;
+}
+.con2 .row .colona{
+
+  
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.row .text{
+    font-size: 18px;
+}
+
+.row .card{
+    float: right;
+    margin-top: 50px;
+    width: 30rem; 
+    background-color: #fefeff; 
+    opacity: .8;
+}
+.menu .card{
+    width: 35rem;
+}
+.titulliProduktit{
+    margin-top: 250px;
+    margin-bottom: 80px;
+
+}
+.products{
+    margin-top: 100px;
+}
+.con6 .visit{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.con6 .things{
+    font-size: 20px;
+}
+.footer{
+    height:150px;
+}
+.footer .copyright{
+    margin-top: 100px;
+}
+@media (max-width:575px){
+    .navbar{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+    div.navbar-collapse ul.navbar-nav li a{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        font-weight: bold; 
+    }
+    .con{
+        background: url('/img/home.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 650px;
+        font-family: 'Ubuntu', sans-serif;
+        width: 100%; 
+    }
+    .con h1{
+        font-size: 25px;
+        padding-top: 180px;
+    }
+    .con button{
+        padding: 10px 30px;
+        margin-top: 50px;
+    }
+    .con2 .row .colona{
+        background: url('/img/we.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 700px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: 90px;
+    }
+    .row .text{
+        font-size: 16px;
+    }
+    
+    .row .card{
+        align-self: center;
+        float: none;
+        margin-top: 50px;
+        width: 20.5rem; 
+        background-color: #fefeff; 
+        opacity: .8;
+    }
+    .titulliProduktit{
+        margin-top: 100px;
+        margin-bottom: 80px;
+    
+    }
+    .products{
+        margin-top: 100px;
+    }
+    .con6 .visit{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .con6 .things{
+        font-size: 20px;
+    }
+    .footer{
+        height:80px;
+    }
+    .footer .copyright{
+        margin-top: 100px;
+    }
+    .menu{
+        margin-top: 70px;
+    }
+}
+
+/*Small devices*/
+@media (min-width:576px) and (max-width:767px){
+    .con{
+        background: url('/img/home.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 650px;
+        font-family: 'Ubuntu', sans-serif;
+        width: 100%; 
+    }
+    .con h1{
+        font-size: 27px;
+        padding-top: 180px;
+    }
+    .con button{
+        padding: 12px 35px;
+        margin-top: 50px;
+    }
+    .con2 .row .colona{
+        background: url('/img/we.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 700px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: 90px;
+    }
+    .row .text{
+        font-size: 16px;
+    }
+    .row .card{
+        align-self: center;
+        margin-top: 50px;
+        width: 28rem; 
+        background-color: #fefeff; 
+        opacity: .8;
+    }
+    .titulliProduktit{
+        margin-top: 100px;
+        margin-bottom: 80px;
+    
+    }
+    .products{
+        margin-top: 100px;
+    }
+    .con6 .visit{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .con6 .things{
+        font-size: 20px;
+    }
+    .footer{
+        height:80px;
+    }
+    .footer .copyright{
+        margin-top: 100px;
+    }
+    
+}
+
+/*Medium Devices*/
+@media (min-width:768px) and (max-width:991px){
+    .con{
+        background: url('/img/home.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 650px;
+        font-family: 'Ubuntu', sans-serif;
+        width: 100%; 
+    }
+    .con h1{
+        font-size: 35px;
+        padding-top: 180px;
+    }
+    .con button{
+        padding: 15px 40px;
+        margin-top: 50px;
+    }
+    .con2 .row .colona{
+        background: url('/img/we.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 700px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: 90px;
+    }
+    .row .text{
+        font-size: 18px;
+    }
+    .row .card{
+        align-self: center;
+        margin-top: 50px;
+        width: 30rem; 
+        background-color: #fefeff; 
+        opacity: .8;
+    }
+    .menu .row {
+        display: flex;
+        flex-wrap: wrap;
+     }
+     
+     .menu .row > div[class*='col-'] {
+       display: flex;
+     }
+     .titulliProduktit{
+        margin-top: 100px;
+        margin-bottom: 80px;
+    
+    }
+    .products{
+        margin-top: 100px;
+    }
+    .con6 .visit{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .con6 .things{
+        font-size: 20px;
+    }
+    .footer{
+        height:80px;
+    }
+    .footer .copyright{
+        margin-top: 100px;
+    }  
+}
+ /*Large Devices*/
+@media (min-width:992px) and (max-width:1199px){
+    .con{
+        background: url('/img/home.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 650px;
+        font-family: 'Ubuntu', sans-serif;
+        width: 100%; 
+    }
+    .con h1{
+        font-size: 37px;
+        padding-top: 180px;
+    }
+    .con button{
+        padding: 15px 40px;
+        margin-top: 50px;
+    }
+    .con2 .row .colona{
+        background: url('/img/we.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 700px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: 90px;
+    }
+    .row .text{
+        font-size: 20px;
+    }
+    .row .card{
+        align-self: center;
+        margin-top: 50px;
+        width: 30rem; 
+        background-color: #fefeff; 
+        opacity: .8;
+    }
+    .menu .row {
+        display: flex;
+        flex-wrap: wrap;
+     }
+     
+     .menu .row > div[class*='col-'] {
+       display: flex;
+     }
+     .titulliProduktit{
+        margin-top: 130px;
+        margin-bottom: 80px;
+    
+    }
+    .products{
+        margin-top: 130px;
+    }
+    .con6 .visit{
+        margin-top: 120px;
+        margin-bottom: 50px;
+    }
+    .con6 .things{
+        font-size: 20px;
+    }
+    .footer{
+        height:120px;
+    }
+    .footer .copyright{
+        margin-top: 100px;
+    }
+}
+/*X Large Devices*/
+@media (min-width:1200px){
+    .con{
+        background: url('/img/home.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 760px;
+        font-family: 'Ubuntu', sans-serif;
+        width: 100%; 
+    }
+    .con h1{
+        font-size: 40px;
+        padding-top: 180px;
+    }
+    .con button{
+        padding: 15px 40px;
+        margin-top: 50px;
+    }
+    .con2 .row .colona{
+        background: url('/img/we.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 700px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: 90px;
+    }
+    .row .text{
+        font-size: 21px;
+    }
+    .row .card{
+        align-self: center;
+        margin-top: 50px;
+        width: 30rem; 
+        background-color: #fefeff; 
+        opacity: .8;
+    }
+    .menu .row {
+        display: flex;
+        flex-wrap: wrap;
+     }
+     
+     .menu .row > div[class*='col-'] {
+       display: flex;
+     }
+     .titulliProduktit{
+        margin-top: 150px;
+        margin-bottom: 100px;
+    
+    }
+    .products{
+        margin-top: 130px;
+    }
+    .con6 .visit{
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+    .con6 .things{
+        font-size: 20px;
+    }
+    .footer{
+        height:120px;
+    }
+    .footer .copyright{
+        margin-top: 100px;
+    }
+}
